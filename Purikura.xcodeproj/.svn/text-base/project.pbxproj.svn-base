@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E0AD66C1548E27C00A90161 /* CameraGalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0AD66A1548E27C00A90161 /* CameraGalleryViewController.m */; };
+		8E0AD66D1548E27C00A90161 /* CameraGalleryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E0AD66B1548E27C00A90161 /* CameraGalleryViewController.xib */; };
+		8E3F654D153BDDCC00D4FB9A /* ImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3F654C153BDDCC00D4FB9A /* ImageScrollView.m */; };
+		8E3F6551153BE1AC00D4FB9A /* TilingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3F6550153BE1AC00D4FB9A /* TilingView.m */; };
+		8E4B27F01546771A00D17B72 /* 86-camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E4B27EF1546771A00D17B72 /* 86-camera.png */; };
+		8E4B27F31546774100D17B72 /* 98-palette.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E4B27F21546774100D17B72 /* 98-palette.png */; };
+		8E4B27F51546776600D17B72 /* 121-landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E4B27F41546776600D17B72 /* 121-landscape.png */; };
+		8E57377E1540FCE8009EEDAB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E57377B1540FCDB009EEDAB /* CoreLocation.framework */; };
+		8E5737851541480B009EEDAB /* logo_speech_bubble.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E5737821541480B009EEDAB /* logo_speech_bubble.png */; };
+		8E57378915414C65009EEDAB /* logo_lips.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E57378615414C65009EEDAB /* logo_lips.png */; };
+		8E57378A15414C65009EEDAB /* logo_mustache.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E57378715414C65009EEDAB /* logo_mustache.png */; };
+		8E57378B15414C65009EEDAB /* logo_star.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E57378815414C65009EEDAB /* logo_star.png */; };
+		8E59CC72153552BA00998ECB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E59CC71153552BA00998ECB /* UIKit.framework */; };
+		8E59CC74153552BA00998ECB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E59CC73153552BA00998ECB /* Foundation.framework */; };
+		8E59CC76153552BA00998ECB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E59CC75153552BA00998ECB /* CoreGraphics.framework */; };
+		8E59CC7C153552BA00998ECB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E59CC7A153552BA00998ECB /* InfoPlist.strings */; };
+		8E59CC7E153552BA00998ECB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E59CC7D153552BA00998ECB /* main.m */; };
+		8E59CC8D153553C100998ECB /* PurikuraAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E59CC8B153553C100998ECB /* PurikuraAppDelegate.m */; };
+		8E59CC8E153553C100998ECB /* PurikuraAppDelegate.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E59CC8C153553C100998ECB /* PurikuraAppDelegate.xib */; };
+		8E59CCB01535626A00998ECB /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E59CCAF1535626A00998ECB /* BaseViewController.m */; };
+		8E59CCE715356D8A00998ECB /* EditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E59CCE515356D8A00998ECB /* EditorViewController.m */; };
+		8E59CCE815356D8A00998ECB /* EditorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E59CCE615356D8A00998ECB /* EditorViewController.xib */; };
+		8E63FE561537FD8200ECB830 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E63FE551537FD8200ECB830 /* QuartzCore.framework */; };
+		8E63FE5A153820BF00ECB830 /* DisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E63FE58153820BF00ECB830 /* DisplayViewController.m */; };
+		8EB159E615CF54D900299836 /* FontListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB159E415CF54D900299836 /* FontListViewController.m */; };
+		8EB159E715CF54D900299836 /* FontListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EB159E515CF54D900299836 /* FontListViewController.xib */; };
+		8EC8379715493B4C00D77456 /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EC8379615493B4C00D77456 /* delete.png */; };
+		8EEA695D1547CF5E005807EC /* logo_crown.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EEA69551547CF5E005807EC /* logo_crown.png */; };
+		8EEA695E1547CF5E005807EC /* logo_fedora.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EEA69561547CF5E005807EC /* logo_fedora.png */; };
+		8EEA695F1547CF5E005807EC /* logo_jester.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EEA69571547CF5E005807EC /* logo_jester.png */; };
+		8EEA69601547CF5E005807EC /* logo_king_crown.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EEA69581547CF5E005807EC /* logo_king_crown.png */; };
+		8EEA69611547CF5E005807EC /* logo_music_note.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EEA69591547CF5E005807EC /* logo_music_note.png */; };
+		8EEA69621547CF5E005807EC /* logo_smiley.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EEA695A1547CF5E005807EC /* logo_smiley.png */; };
+		8EEA69631547CF5E005807EC /* logo_sun.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8EEA695B1547CF5E005807EC /* logo_sun.gif */; };
+		8EEA69641547CF5E005807EC /* logo_sunglasses.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EEA695C1547CF5E005807EC /* logo_sunglasses.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8E0AD6691548E27C00A90161 /* CameraGalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CameraGalleryViewController.h; path = Views/CameraGalleryViewController.h; sourceTree = "<group>"; };
+		8E0AD66A1548E27C00A90161 /* CameraGalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CameraGalleryViewController.m; path = Views/CameraGalleryViewController.m; sourceTree = "<group>"; };
+		8E0AD66B1548E27C00A90161 /* CameraGalleryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CameraGalleryViewController.xib; path = Views/CameraGalleryViewController.xib; sourceTree = "<group>"; };
+		8E3F654B153BDDCC00D4FB9A /* ImageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageScrollView.h; sourceTree = "<group>"; };
+		8E3F654C153BDDCC00D4FB9A /* ImageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageScrollView.m; sourceTree = "<group>"; };
+		8E3F654F153BE1AC00D4FB9A /* TilingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TilingView.h; sourceTree = "<group>"; };
+		8E3F6550153BE1AC00D4FB9A /* TilingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TilingView.m; sourceTree = "<group>"; };
+		8E4B27EF1546771A00D17B72 /* 86-camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "86-camera.png"; sourceTree = "<group>"; };
+		8E4B27F21546774100D17B72 /* 98-palette.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "98-palette.png"; sourceTree = "<group>"; };
+		8E4B27F41546776600D17B72 /* 121-landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "121-landscape.png"; sourceTree = "<group>"; };
+		8E57377B1540FCDB009EEDAB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8E5737821541480B009EEDAB /* logo_speech_bubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_speech_bubble.png; sourceTree = "<group>"; };
+		8E57378615414C65009EEDAB /* logo_lips.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_lips.png; sourceTree = "<group>"; };
+		8E57378715414C65009EEDAB /* logo_mustache.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_mustache.png; sourceTree = "<group>"; };
+		8E57378815414C65009EEDAB /* logo_star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_star.png; sourceTree = "<group>"; };
+		8E59CC6D153552BA00998ECB /* Purikura.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Purikura.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E59CC71153552BA00998ECB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8E59CC73153552BA00998ECB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8E59CC75153552BA00998ECB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8E59CC79153552BA00998ECB /* Purikura-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Purikura-Info.plist"; sourceTree = "<group>"; };
+		8E59CC7B153552BA00998ECB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8E59CC7D153552BA00998ECB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8E59CC7F153552BA00998ECB /* Purikura-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Purikura-Prefix.pch"; sourceTree = "<group>"; };
+		8E59CC8A153553C100998ECB /* PurikuraAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurikuraAppDelegate.h; sourceTree = "<group>"; };
+		8E59CC8B153553C100998ECB /* PurikuraAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PurikuraAppDelegate.m; sourceTree = "<group>"; };
+		8E59CC8C153553C100998ECB /* PurikuraAppDelegate.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PurikuraAppDelegate.xib; sourceTree = "<group>"; };
+		8E59CCAE1535626A00998ECB /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = Common/BaseViewController.h; sourceTree = "<group>"; };
+		8E59CCAF1535626A00998ECB /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = Common/BaseViewController.m; sourceTree = "<group>"; };
+		8E59CCE415356D8900998ECB /* EditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EditorViewController.h; path = Views/EditorViewController.h; sourceTree = "<group>"; };
+		8E59CCE515356D8A00998ECB /* EditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EditorViewController.m; path = Views/EditorViewController.m; sourceTree = "<group>"; };
+		8E59CCE615356D8A00998ECB /* EditorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EditorViewController.xib; path = Views/EditorViewController.xib; sourceTree = "<group>"; };
+		8E59CCE915357F7A00998ECB /* UIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIHelper.h; path = Helpers/UIHelper.h; sourceTree = "<group>"; };
+		8E63FE551537FD8200ECB830 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8E63FE57153820BF00ECB830 /* DisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DisplayViewController.h; path = Views/DisplayViewController.h; sourceTree = "<group>"; };
+		8E63FE58153820BF00ECB830 /* DisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DisplayViewController.m; path = Views/DisplayViewController.m; sourceTree = "<group>"; };
+		8EB159E315CF54D900299836 /* FontListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FontListViewController.h; path = Views/FontListViewController.h; sourceTree = "<group>"; };
+		8EB159E415CF54D900299836 /* FontListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FontListViewController.m; path = Views/FontListViewController.m; sourceTree = "<group>"; };
+		8EB159E515CF54D900299836 /* FontListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FontListViewController.xib; path = Views/FontListViewController.xib; sourceTree = "<group>"; };
+		8EC8379615493B4C00D77456 /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete.png; sourceTree = "<group>"; };
+		8EEA69551547CF5E005807EC /* logo_crown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_crown.png; sourceTree = "<group>"; };
+		8EEA69561547CF5E005807EC /* logo_fedora.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_fedora.png; sourceTree = "<group>"; };
+		8EEA69571547CF5E005807EC /* logo_jester.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_jester.png; sourceTree = "<group>"; };
+		8EEA69581547CF5E005807EC /* logo_king_crown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_king_crown.png; sourceTree = "<group>"; };
+		8EEA69591547CF5E005807EC /* logo_music_note.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_music_note.png; sourceTree = "<group>"; };
+		8EEA695A1547CF5E005807EC /* logo_smiley.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_smiley.png; sourceTree = "<group>"; };
+		8EEA695B1547CF5E005807EC /* logo_sun.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = logo_sun.gif; sourceTree = "<group>"; };
+		8EEA695C1547CF5E005807EC /* logo_sunglasses.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_sunglasses.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E59CC6A153552BA00998ECB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E57377E1540FCE8009EEDAB /* CoreLocation.framework in Frameworks */,
+				8E63FE561537FD8200ECB830 /* QuartzCore.framework in Frameworks */,
+				8E59CC72153552BA00998ECB /* UIKit.framework in Frameworks */,
+				8E59CC74153552BA00998ECB /* Foundation.framework in Frameworks */,
+				8E59CC76153552BA00998ECB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E3F654E153BE18B00D4FB9A /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				8E3F654F153BE1AC00D4FB9A /* TilingView.h */,
+				8E3F6550153BE1AC00D4FB9A /* TilingView.m */,
+				8E3F654B153BDDCC00D4FB9A /* ImageScrollView.h */,
+				8E3F654C153BDDCC00D4FB9A /* ImageScrollView.m */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		8E57377F154147F1009EEDAB /* images */ = {
+			isa = PBXGroup;
+			children = (
+				8EC8379615493B4C00D77456 /* delete.png */,
+				8EEA69551547CF5E005807EC /* logo_crown.png */,
+				8EEA69561547CF5E005807EC /* logo_fedora.png */,
+				8EEA69571547CF5E005807EC /* logo_jester.png */,
+				8EEA69581547CF5E005807EC /* logo_king_crown.png */,
+				8EEA69591547CF5E005807EC /* logo_music_note.png */,
+				8EEA695A1547CF5E005807EC /* logo_smiley.png */,
+				8EEA695B1547CF5E005807EC /* logo_sun.gif */,
+				8EEA695C1547CF5E005807EC /* logo_sunglasses.png */,
+				8E4B27F41546776600D17B72 /* 121-landscape.png */,
+				8E4B27F21546774100D17B72 /* 98-palette.png */,
+				8E4B27EF1546771A00D17B72 /* 86-camera.png */,
+				8E57378615414C65009EEDAB /* logo_lips.png */,
+				8E57378715414C65009EEDAB /* logo_mustache.png */,
+				8E57378815414C65009EEDAB /* logo_star.png */,
+				8E5737821541480B009EEDAB /* logo_speech_bubble.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		8E59CC62153552BA00998ECB = {
+			isa = PBXGroup;
+			children = (
+				8E59CC77153552BA00998ECB /* Purikura */,
+				8E59CC70153552BA00998ECB /* Frameworks */,
+				8E59CC6E153552BA00998ECB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E59CC6E153552BA00998ECB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E59CC6D153552BA00998ECB /* Purikura.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E59CC70153552BA00998ECB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E57377B1540FCDB009EEDAB /* CoreLocation.framework */,
+				8E63FE551537FD8200ECB830 /* QuartzCore.framework */,
+				8E59CC71153552BA00998ECB /* UIKit.framework */,
+				8E59CC73153552BA00998ECB /* Foundation.framework */,
+				8E59CC75153552BA00998ECB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E59CC77153552BA00998ECB /* Purikura */ = {
+			isa = PBXGroup;
+			children = (
+				8E59CC8A153553C100998ECB /* PurikuraAppDelegate.h */,
+				8E59CC8B153553C100998ECB /* PurikuraAppDelegate.m */,
+				8E59CC8C153553C100998ECB /* PurikuraAppDelegate.xib */,
+				8E59CCAD1535622D00998ECB /* Common */,
+				8E59CC881535535F00998ECB /* Helpers */,
+				8E59CC891535536800998ECB /* Views */,
+				8E59CC78153552BA00998ECB /* Supporting Files */,
+			);
+			path = Purikura;
+			sourceTree = "<group>";
+		};
+		8E59CC78153552BA00998ECB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E57377F154147F1009EEDAB /* images */,
+				8E59CC79153552BA00998ECB /* Purikura-Info.plist */,
+				8E59CC7A153552BA00998ECB /* InfoPlist.strings */,
+				8E59CC7D153552BA00998ECB /* main.m */,
+				8E59CC7F153552BA00998ECB /* Purikura-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E59CC881535535F00998ECB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8E59CCE915357F7A00998ECB /* UIHelper.h */,
+				8E3F654E153BE18B00D4FB9A /* Objects */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		8E59CC891535536800998ECB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8E59CCE415356D8900998ECB /* EditorViewController.h */,
+				8E59CCE515356D8A00998ECB /* EditorViewController.m */,
+				8E59CCE615356D8A00998ECB /* EditorViewController.xib */,
+				8E63FE57153820BF00ECB830 /* DisplayViewController.h */,
+				8E63FE58153820BF00ECB830 /* DisplayViewController.m */,
+				8E0AD6691548E27C00A90161 /* CameraGalleryViewController.h */,
+				8E0AD66A1548E27C00A90161 /* CameraGalleryViewController.m */,
+				8E0AD66B1548E27C00A90161 /* CameraGalleryViewController.xib */,
+				8EB159E315CF54D900299836 /* FontListViewController.h */,
+				8EB159E415CF54D900299836 /* FontListViewController.m */,
+				8EB159E515CF54D900299836 /* FontListViewController.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		8E59CCAD1535622D00998ECB /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				8E59CCAE1535626A00998ECB /* BaseViewController.h */,
+				8E59CCAF1535626A00998ECB /* BaseViewController.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E59CC6C153552BA00998ECB /* Purikura */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E59CC85153552BA00998ECB /* Build configuration list for PBXNativeTarget "Purikura" */;
+			buildPhases = (
+				8E59CC69153552BA00998ECB /* Sources */,
+				8E59CC6A153552BA00998ECB /* Frameworks */,
+				8E59CC6B153552BA00998ECB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Purikura;
+			productName = Purikura;
+			productReference = 8E59CC6D153552BA00998ECB /* Purikura.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E59CC64153552BA00998ECB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 8E59CC67153552BA00998ECB /* Build configuration list for PBXProject "Purikura" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8E59CC62153552BA00998ECB;
+			productRefGroup = 8E59CC6E153552BA00998ECB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E59CC6C153552BA00998ECB /* Purikura */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E59CC6B153552BA00998ECB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E59CC7C153552BA00998ECB /* InfoPlist.strings in Resources */,
+				8E59CC8E153553C100998ECB /* PurikuraAppDelegate.xib in Resources */,
+				8E59CCE815356D8A00998ECB /* EditorViewController.xib in Resources */,
+				8E5737851541480B009EEDAB /* logo_speech_bubble.png in Resources */,
+				8E57378915414C65009EEDAB /* logo_lips.png in Resources */,
+				8E57378A15414C65009EEDAB /* logo_mustache.png in Resources */,
+				8E57378B15414C65009EEDAB /* logo_star.png in Resources */,
+				8E4B27F01546771A00D17B72 /* 86-camera.png in Resources */,
+				8E4B27F31546774100D17B72 /* 98-palette.png in Resources */,
+				8E4B27F51546776600D17B72 /* 121-landscape.png in Resources */,
+				8EEA695D1547CF5E005807EC /* logo_crown.png in Resources */,
+				8EEA695E1547CF5E005807EC /* logo_fedora.png in Resources */,
+				8EEA695F1547CF5E005807EC /* logo_jester.png in Resources */,
+				8EEA69601547CF5E005807EC /* logo_king_crown.png in Resources */,
+				8EEA69611547CF5E005807EC /* logo_music_note.png in Resources */,
+				8EEA69621547CF5E005807EC /* logo_smiley.png in Resources */,
+				8EEA69631547CF5E005807EC /* logo_sun.gif in Resources */,
+				8EEA69641547CF5E005807EC /* logo_sunglasses.png in Resources */,
+				8E0AD66D1548E27C00A90161 /* CameraGalleryViewController.xib in Resources */,
+				8EC8379715493B4C00D77456 /* delete.png in Resources */,
+				8EB159E715CF54D900299836 /* FontListViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E59CC69153552BA00998ECB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E59CC7E153552BA00998ECB /* main.m in Sources */,
+				8E59CC8D153553C100998ECB /* PurikuraAppDelegate.m in Sources */,
+				8E59CCB01535626A00998ECB /* BaseViewController.m in Sources */,
+				8E59CCE715356D8A00998ECB /* EditorViewController.m in Sources */,
+				8E63FE5A153820BF00ECB830 /* DisplayViewController.m in Sources */,
+				8E3F654D153BDDCC00D4FB9A /* ImageScrollView.m in Sources */,
+				8E3F6551153BE1AC00D4FB9A /* TilingView.m in Sources */,
+				8E0AD66C1548E27C00A90161 /* CameraGalleryViewController.m in Sources */,
+				8EB159E615CF54D900299836 /* FontListViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8E59CC7A153552BA00998ECB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E59CC7B153552BA00998ECB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E59CC83153552BA00998ECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E59CC84153552BA00998ECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E59CC86153552BA00998ECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Purikura/Purikura-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_UNDECLARED_SELECTOR = NO;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				INFOPLIST_FILE = "Purikura/Purikura-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8E59CC87153552BA00998ECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Purikura/Purikura-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_UNDECLARED_SELECTOR = NO;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				INFOPLIST_FILE = "Purikura/Purikura-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E59CC67153552BA00998ECB /* Build configuration list for PBXProject "Purikura" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E59CC83153552BA00998ECB /* Debug */,
+				8E59CC84153552BA00998ECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E59CC85153552BA00998ECB /* Build configuration list for PBXNativeTarget "Purikura" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E59CC86153552BA00998ECB /* Debug */,
+				8E59CC87153552BA00998ECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E59CC64153552BA00998ECB /* Project object */;
+}
